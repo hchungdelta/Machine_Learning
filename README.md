@@ -8,10 +8,10 @@ Notice : Some of these codes are not well organized and still under development.
 Currently, this repository includes:
 
 
-a. MNIST handwritten digit recognition project.  (3/9/2018  --  Still under development)
+## a. MNIST handwritten digit recognition project.  (9/3/2018 -)
 
 
-Abstract : 
+Description : 
 Training your own neural network, saving and restoring the tf.data for later use.
 Fully Connected Layer and Convolution Layer are implemented in this project.
 A writing panel is built (use pygame), so users can interact with their own neural network directly. 
