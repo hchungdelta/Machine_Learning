@@ -9,7 +9,7 @@ Currently, this repository includes:
 
 
 a. MNIST handwritten digit recognition project.  (3/9/2018  --  Still under development)
-=
+
 
 Abstract : 
 Training your own neural network, saving and restoring the tf.data for later use.
