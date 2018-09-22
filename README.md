@@ -15,6 +15,8 @@ Currently, this repository includes:
 
 #### Description : 
 
+The basic neural network framework is based on [the work of Aymeric Damien](https://github.com/aymericdamien/TensorFlow-Examples/)
+
 Training your own neural network, saving and restoring the tf.data for later use/retrain.
 Fully Connected Layer and Convolution Layer are implemented in this project.
 A writing panel is built (using pygame), users can interact with their own neural network directly. 
@@ -37,6 +39,15 @@ To improve this, my assumptions is:
 
 #### Description : 
 
+This work is inspired by [Ematvey's awesome tutorials](https://github.com/ematvey/tensorflow-seq2seq-tutorials) for seq2seq!
+
+Full script of madoka magica. 
+[魔法少女まどか☆マギカ台本](https://www22.atwiki.jp/madoka-magica/pages/83.html)
+
+Details are preparing ...
+
+The basic framework is biRNN (LSTM).
+In this model, the word vector is also trainable.  (Can be view as another full connected layer)
 Feed all the conversation in madoka magica into seq2seq model.
 
 Training time : < 12 hour 
@@ -46,4 +57,7 @@ Training time : < 12 hour
 The ability to recognition the words with similar meaning are very weak, which is quite reasonable since I only feed this 1 MB or so .txt file for training.
 
 Using Work2Vec and larger data.
-Attention model!
+I am ready to delve into analyzing  (>200 MB) txt data  ...
+
+For larger conversation : Attention model are needed.
+Personalized word vector project : After 
