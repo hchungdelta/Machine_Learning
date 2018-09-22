@@ -59,9 +59,11 @@ So in encoder-decoder process, one must to notice that we use the same dictionar
 The ability to recognition the words with similar meaning are very weak, which is quite reasonable since I only feed this 1 MB or so .txt file for training.
 
 Using Work2Vec and larger data.
+
 I am ready to delve into analyzing  (>200 MB) txt data  ...
 
 For larger conversation : Attention model are needed.
+
 Personalized word vector project : After 
 
 
