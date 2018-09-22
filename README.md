@@ -44,13 +44,15 @@ This work is inspired by [Ematvey's awesome tutorials](https://github.com/ematve
 Full script of madoka magica. 
 [魔法少女まどか☆マギカ台本](https://www22.atwiki.jp/madoka-magica/pages/83.html)
 
-Details are preparing ...
-
 The basic framework is biRNN (LSTM).
 In this model, the word vector is also trainable.  (Can be view as another full connected layer)
 Feed all the conversation in madoka magica into seq2seq model.
+Details are preparing ...
+Training time : ~ 12 hour 
 
-Training time : < 12 hour 
+
+Caution : python dict and set as **hash** method, which can speed up the searching process while it also means to random generate a index for each word so the order of items in dictionary will be different if we restart the Console. 
+So in encoder-decoder process, one must to notice that we use the same dictionary (it would be better to save the dictionary in .json or something else)
 
 #### results & future work: 
 
@@ -61,3 +63,5 @@ I am ready to delve into analyzing  (>200 MB) txt data  ...
 
 For larger conversation : Attention model are needed.
 Personalized word vector project : After 
+
+
