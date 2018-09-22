@@ -27,7 +27,7 @@ For both, the ability of recognition for the handwritten digits on writing panel
 To improve this, my assumptions is:
 - Need to build a larger neural network, more and more compulational costs are required.
 - The handwritten digits on writing panel maybe quite different from the **real** handwritten digits in the MINST database. 
-~~- My handwritten digits are nothing but a scrawl as my elementary school teacher always told me.~~
+~~My handwritten digits are nothing but a scrawl as my elementary school teacher always told me.~~
 
 
 
