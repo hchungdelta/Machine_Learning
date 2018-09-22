@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\HCHUNG\\Desktop\\Tensorflow\\seq2seq\\madoka2\\DataSave\\madoka_training"
+all_model_checkpoint_paths: "C:\\Users\\HCHUNG\\Desktop\\Tensorflow\\seq2seq\\madoka2\\DataSave\\madoka_training"
