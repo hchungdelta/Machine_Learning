@@ -9,7 +9,7 @@ Notice : Some of these codes are not well organized and still under development.
 Currently, this repository includes:
 
 
-## a. MNIST handwritten digit recognition project ver2.  (9/3/2018 - 18/3/2018)
+## a. MNIST handwritten digit recognition project ver2.  (9/3/2018 - 9/13/2018)
 
 **keywords : Convolution Neural Network (CNN), Fully Connected Layer, writing panel**
 
