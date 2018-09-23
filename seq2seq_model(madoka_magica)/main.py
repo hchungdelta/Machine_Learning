@@ -59,10 +59,6 @@ def spec_vocab_searcher(_string):
 spec_vocab_txt = 'dictionary_thres_5.txt'
 spec_vocab = readtxt.read_japanese_split_punction(spec_vocab_txt)  #be typed as np.ndarray
 
-
-with open("conversation.json","r", encoding='utf-8') as jsonfile:
-    F=json.load(jsonfile)
-    data_input_phrase_spec_vocab =F['conversation']  
 with open("dict.json","r", encoding='utf-8') as jsonfile:
     F=json.load(jsonfile)
     dictionary = F['dictionary'] 
