@@ -51,7 +51,7 @@ Details are preparing ...
 Training time : ~ 12 hour 
 
 
-Caution : python dict and set as **hash** method, which can speed up the searching process while it also means to random generate a index for each word so the order of items in dictionary will be different if we restart the Console. 
+Caution : python dict and set are **hash** method, which can speed up the searching process while it also means to random generate a index for each word so the order of items in dictionary will be different if we restart the Console. 
 So in encoder-decoder process, one must to notice that we use the same dictionary (it would be better to save the dictionary in .json or something else)
 
 #### results & future work: 
