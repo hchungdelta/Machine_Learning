@@ -9,7 +9,7 @@ Notice : Some of these codes are not well organized and still under development.
 Currently, this repository includes:
 
 
-## a. MNIST handwritten digit recognition project ver2.  (9/3/2018 - 9/13/2018)
+## a. MNIST handwritten digit recognition project ver2.  (9/13/2018)
 
 **keywords : Convolution Neural Network (CNN), Fully Connected Layer, writing panel**
 
@@ -33,7 +33,7 @@ To improve this, my assumptions is:
 
 
 
-## b. seq2seq model (magica madoka)   (9/23/2018 -)
+## b. seq2seq model (magica madoka)   (9/23/2018)
 
 **keywords : Recurrent Neural Network (RNN), bidirectional RNN (bi-RNN) , long-short term memory (LSTM)**
 
@@ -66,4 +66,27 @@ For larger conversation : Attention model are needed.
 
 Personalized word vector project : After 
 
+## c. seq2seq model (magica madoka)   (9/26/2018 - )
 
+**keywords : bi-RNN, LSTM, Word2Vec, Attention mechanism, Scheduled sampling**
+
+#### Description : 
+
+
+Vocab_separator   : Statistical method  (MeCab is more efficient and elegant... while it is not friendly window user...)
+
+Traingin word2Vec :  256 MB .txt data 
+
+Conversation data :  64 MB .txt data 
+
+Vocabulary amount : 40849 +2 (#EOS, #GO)
+
+word2vec vector length : 200   (So I have 40851 x 200 matrix )
+
+Embedding matrix is set to be not trainable tensor.
+
+Structure : Singel biRNN layer.
+
+amount of hidden units in biRNN : 400
+
+amount of hidden units in attention layer :400
