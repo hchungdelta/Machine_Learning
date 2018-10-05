@@ -66,9 +66,9 @@ For larger conversation : Attention model are needed.
 
 Personalized word vector project : After 
 
-## c. seq2seq model (magica madoka)   (9/26/2018 - )
+## c. seq2seq model (64 MB novel_conversation)   (9/26/2018 - )
 
-**keywords : bi-RNN, LSTM, Word2Vec, Attention mechanism, Scheduled sampling**
+**keywords : bi-RNN, LSTM, genism, Word2Vec, Attention mechanism, Scheduled sampling**
 
 #### Description : 
 
@@ -90,3 +90,5 @@ Structure : Singel biRNN layer.
 amount of hidden units in biRNN : 400
 
 amount of hidden units in attention layer :400
+
+Training time : ~
