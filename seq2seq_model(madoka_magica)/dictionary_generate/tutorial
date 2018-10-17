@@ -1,0 +1,8 @@
+1. 
+separator.py / train.py --> separate txt by comma ...etc. So can grasp the "raw" vocab
+2.
+word_detector_main.py  --> threshold ...etc.
+3.
+breaker.py
+separate the auxiliary verbs 
+
